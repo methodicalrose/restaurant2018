@@ -1,9 +1,19 @@
+h1, h2, h3, h4 {
+    font-family: 'Cardo', serif;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body {
     position: relative;
+    background-color: #EBF5FB;
 }
 
 .navbar-default {
     z-index: 999;
+    background-color: #78281F;
 }
 
 .navbar-brand {
@@ -11,8 +21,15 @@ body {
 }
 
 .navbar-brand h1 {
+    font-family: 'Cardo', serif;
     font-size:24px;
     margin:0;
+    color: #000000;
+}
+
+.navbar-default .navbar-nav li a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #000000;
 }
 
 .affix {
@@ -32,11 +49,32 @@ body {
 }
 
 #home-section h1, #home-section p {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 #reservation-section {
-    background: #eeeeee;
+    background: #78281F;
+    color: #000000;
+}
+
+.menu-tab .active {
+  border: 2px solid #000000;
+  border-bottom: none;
+}
+
+.menu-tab .active h3 {
+  color: #000000;
+  font-weight: bold;
+}
+
+.tab-content {
+  background-color: #ffffff;
+  border: solid 2px #000000;
+  margin-bottom: 30px;
+}
+
+.body-img, .menu-inside-img, .footer-img {
+  border: 1px solid #000000;
 }
 
 @media only screen and (min-width : 992px) {
