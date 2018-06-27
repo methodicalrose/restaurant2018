@@ -11,6 +11,19 @@ body {
     background-color: #EBF5FB;
 }
 
+.btn {
+  background-color: #78281F;
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 0;
+}
+
+.btn:hover, .btn:active {
+  background-color: #EBF5FB;
+  color: #000000;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .navbar-default {
     z-index: 999;
     background-color: #78281F;
@@ -24,12 +37,14 @@ body {
     font-family: 'Cardo', serif;
     font-size:24px;
     margin:0;
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .navbar-default .navbar-nav li a {
   font-family: 'Josefin Sans', sans-serif;
-  color: #000000;
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #000000;
 }
 
 .affix {
@@ -54,7 +69,8 @@ body {
 
 #reservation-section {
     background: #78281F;
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .menu-tab .active {
@@ -65,6 +81,11 @@ body {
 .menu-tab .active h3 {
   color: #000000;
   font-weight: bold;
+}
+
+.nav-tabs li a {
+  margin:0;
+  border-radius: 0;
 }
 
 .tab-content {
